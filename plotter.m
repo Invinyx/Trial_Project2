@@ -4,4 +4,6 @@ t=(0:0.01:2);
 
 y1=sin(t);
 
-plot(t,y1,'r');
+y2=cos(t);
+
+plot(t,y1,'r',t,y2,'b');
