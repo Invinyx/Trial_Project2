@@ -6,4 +6,9 @@ y1=sin(t);
 
 y2=cos(t);
 
+y3=t.*t;
+
+y1=y1.*y3;
+y2=y2.*y3;
+
 plot(t,y1,'r',t,y2,'b');
